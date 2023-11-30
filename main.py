@@ -22,7 +22,7 @@ posicao_pedecabra = (750, 350)
 botas_visivel = True
 botas = pygame.image.load("items/botasmagicas.png")
 botas = pygame.transform.scale(botas, (50, 50))
-posicao_botas = (150, 200)
+posicao_botas = (12, 130)
 
 panela_visivel = True
 panela = pygame.image.load("items/panela.png")
@@ -367,7 +367,7 @@ while executando:
         background = pygame.transform.scale(background, (largura, altura))
 
     if fase_atual == 6:
-        background = pygame.image.load("quadra.png")
+        background = pygame.image.load("lixao.png")
         background = pygame.transform.scale(background, (largura, altura))
 
     if fase_atual == 7:
